@@ -1,0 +1,18 @@
+{
+    "name": "clima-app-cli",
+    "version": "1.0.0",
+    "description": "Aplicación de consola para obtener el clima las distintas localidades",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
+    },
+    "author": "Diego Bustamante",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "colors": "^1.4.0",
+        "dotenv": "^10.0.0",
+        "inquirer": "^8.1.2"
+    }
+}
